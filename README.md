@@ -2,40 +2,38 @@
 
 ## Organization of  project folder
 
-GCN-Assignment/
-├── dataset/
-│   ├── cora.content
-│   ├── cora.cites
-│   ├── citeseer.content
-│   └── citeseer.cites
-│
-├── others/
-│   └── Supporting files
-│
-├── Results/
-│   ├── 2 layer gcn/
-│   │   ├── confusion_matrix.png
-│   │   ├── predictions.csv
-│   │   ├── training.csv
-│   │   ├── training_loss.png
-│   │   └── validation_metrics.png
-│   │
-│   └── 3layer gcn/
-│       ├── confusion_matrix.png
-│       ├── evaluation_metrics.png
-│       ├── metrics.txt
-│       ├── per_class_metrics.png
-│       ├── predictions.csv
-│       └── training.csv
-│
-├── src/
-│   ├── DatasetLoader.java
-│   ├── print_results.py
-│   ├── TwoLayerGCN.java
-│   └── ThreeLayerGCN.java
-│
-└── README.md
 
+
+```text
+GCN-Assignment/
+|-- dataset/
+|   |-- cora.content
+|   |-- cora.cites
+|   |-- citeseer.content
+|   `-- citeseer.cites
+|-- others/
+|   `-- Supporting files
+|-- Results/
+|   |-- 2 layer gcn/
+|   |   |-- confusion_matrix.png
+|   |   |-- predictions.csv
+|   |   |-- training.csv
+|   |   |-- training_loss.png
+|   |   `-- validation_metrics.png
+|   `-- 3layer gcn/
+|       |-- confusion_matrix.png
+|       |-- evaluation_metrics.png
+|       |-- metrics.txt
+|       |-- per_class_metrics.png
+|       |-- predictions.csv
+|       `-- training.csv
+|-- src/
+|   |-- DatasetLoader.java
+|   |-- print_results.py
+|   |-- TwoLayerGCN.java
+|   `-- ThreeLayerGCN.java
+`-- README.md
+```
 
 ## Overview
 
