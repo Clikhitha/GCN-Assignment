@@ -1,0 +1,12 @@
+Dataset: CiteSeer
+Model: Three-layer GCN
+Nodes: 3312
+Features per node: 3703
+Classes: 6
+Training nodes: 1984
+Validation nodes: 660
+Testing nodes: 668
+Accuracy: 0.458084
+Macro Precision: 0.273062
+Macro Recall: 0.383816
+Macro F1-score: 0.303930
