@@ -1,5 +1,43 @@
 # Two-Layer and Three-Layer Vanilla Graph Convolutional Network (GCN)
 
+## Organization of  project folder
+GCN-Assignment/
+│
+├── dataset/
+│   ├── cora.content
+│   ├── cora.cites
+│   ├── citeseer.content
+│   └── citeseer.cites
+│
+├── others/
+│   └── Supporting files
+│
+├── Results/
+│   ├── 2 layer gcn/
+│   │   ├── confusion_matrix.png
+│   │   ├── predictions.csv
+│   │   ├── training.csv
+│   │   ├── training_loss.png
+│   │   └── validation_metrics.png
+│   │
+│   └── 3layer gcn/
+│       ├── confusion_matrix.png
+│       ├── evaluation_metrics.png
+│       ├── metrics.txt
+│       ├── per_class_metrics.png
+│       ├── predictions.csv
+│       └── training.csv
+│
+├── src/
+│   ├── DatasetLoader.java
+│   ├── print_results.py
+│   ├── TwoLayerGCN.java
+│   └── ThreeLayerGCN.java
+│
+└── README.md
+
+
+
 ## Overview
 
 This project implements two Vanilla Graph Convolutional Networks (GCNs) in Java for semi-supervised node classification on citation networks. The first experiment uses a two-layer GCN on the Cora dataset, while the second uses a three-layer GCN on the CiteSeer dataset.
