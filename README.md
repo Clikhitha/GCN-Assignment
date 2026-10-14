@@ -1,8 +1,8 @@
 # Two-Layer and Three-Layer Vanilla Graph Convolutional Network (GCN)
 
 ## Organization of  project folder
+
 GCN-Assignment/
-│
 ├── dataset/
 │   ├── cora.content
 │   ├── cora.cites
@@ -35,7 +35,6 @@ GCN-Assignment/
 │   └── ThreeLayerGCN.java
 │
 └── README.md
-
 
 
 ## Overview
